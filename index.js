@@ -2,6 +2,7 @@
 // chmod +x index.js
 
 const chalk = require("chalk");
+const sym = require("log-symbols");
 const welcome = require("cli-welcome");
 
 const pkgJSON = require("./package.json");
@@ -11,10 +12,10 @@ const log = console.log;
 const twitterStyle = chalk.hex("#1da1f2").bold;
 const githubStyle = chalk.hex("#6cc644").bold;
 const purpleStyle = chalk.hex("#6937FF").bold;
-const success = chalk.green.bold("SUCCESS ");
-const info = chalk.blue.bold("INFO ");
-const warning = chalk.keyword("orange").bold("WARNING ");
-const error = chalk.red.bold("ERROR ");
+const success = `${sym.success} ${chalk.green.bold("SUCCESS ")}`;
+const info = `${sym.info} ${chalk.blue.bold("INFO ")}`;
+const warning = `${sym.warning} ${chalk.keyword("orange").bold("WARNING ")}`;
+const error = `${sym.error} ${chalk.red.bold("ERROR ")}`;
 
 welcome({
   title: "Amorem",
