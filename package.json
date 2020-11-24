@@ -1,6 +1,6 @@
 {
     "name": "amorem",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Get to know Amorem",
     "bin": {
         "amorem": "index.js"
@@ -8,5 +8,7 @@
     "dependencies": {
         "cli-welcome": "^2.2.2"
     },
-    "keywords": ["Amorem"]
+    "keywords": [
+        "Amorem"
+    ]
 }
