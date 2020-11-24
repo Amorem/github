@@ -1,6 +1,6 @@
 {
     "name": "amorem",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Get to know Amorem",
     "bin": {
         "amorem": "index.js"
@@ -11,9 +11,9 @@
     "keywords": [
         "Amorem"
     ],
-    "license" : "MIT",
-    "main" : "index.js",
-    "repo" : "amorem/github",
+    "license": "MIT",
+    "main": "index.js",
+    "repo": "amorem/github",
     "author": {
         "name": "Cedric TOURNIER",
         "email": "dev@amorem.com",
