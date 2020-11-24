@@ -1,7 +1,10 @@
 {
-    "name" : "amorem",
-    "version" : "1.0.0",
+    "name": "amorem",
+    "version": "1.0.0",
     "bin": {
-        "amorem" : "index.js"
+        "amorem": "index.js"
+    },
+    "dependencies": {
+        "clear-any-console": "^1.16.2"
     }
 }
