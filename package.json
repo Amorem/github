@@ -13,7 +13,7 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repo": "amorem/github",
+    "repository": "amorem/github",
     "author": {
         "name": "Cedric TOURNIER",
         "email": "dev@amorem.com",
