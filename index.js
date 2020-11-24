@@ -11,10 +11,10 @@ const log = console.log;
 const twitterStyle = chalk.hex("#1da1f2").bold;
 const githubStyle = chalk.hex("#6cc644").bold;
 const purpleStyle = chalk.hex("#6937FF").bold;
-const success = chalk.green;
-const info = chalk.blue;
-const warning = chalk.keyword("orange");
-const error = chalk.red.bold;
+const success = chalk.green.bold("SUCCESS ");
+const info = chalk.blue.bold("INFO ");
+const warning = chalk.keyword("orange").bold("WARNING ");
+const error = chalk.red.bold("ERROR ");
 
 welcome({
   title: "Amorem",
@@ -35,7 +35,9 @@ log(`${twitterStyle("Twitter")}`);
 log(`${githubStyle("Github")}`);
 log(`${purpleStyle("Blog")}`);
 
-log(success("Everything is OK"));
-log(info("I am on vacation"));
-log(warning("Please dont copy me, be yourself !"));
-log(error("Contact me next week"));
+log(`
+${success}Everything is OK
+${info}I am on vacation
+${warning}Please dont copy me, be yourself !
+${error}Contact me next week
+`);
